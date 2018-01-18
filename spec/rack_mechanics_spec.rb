@@ -12,7 +12,7 @@ describe "App" do
   end
 
   it 'wishes user a good afternoon in the afternoon' do
-    allow(Time).to receive(:now).and_return(Time.utc(*[26, 10, 10, 2, 6, 2008, 1, 154, false, "MST"]))
+    allow(Time).to receive(:now).and_return(Time.utc(*[26, 10, 22, 2, 6, 2008, 1, 154, false, "MST"]))
 #    allow(Time).to receive(:now){
 #      Time.new(2015,11,27,14,30)
 #    }
